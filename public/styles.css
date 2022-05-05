@@ -1,0 +1,104 @@
+.one {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: whitesmoke;
+    left: 0;
+    top: 0;
+}
+
+
+
+.head {
+    padding-left: 2%;
+    position: relative;
+    left: 0;
+    top: 0;
+
+    width: 98%;
+    background-color: rgb(252, 176, 34);
+}
+
+.head h1 {
+    margin: 0;
+    padding: 1%;
+    color: white;
+
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer p {
+    color: grey;
+    font-weight: 800;
+}
+
+.notes {
+    display: inline-flex;
+    height: max-content;
+    width: 100%;
+    position: relative;
+
+}
+
+.note {
+    border-radius: 4%;
+    padding: 1%;
+    margin-top: 10%;
+    margin-left: 10%;
+    height: max-content;
+    width: auto;
+    background-color: white;
+    position: relative;
+}
+
+.form {
+    width: min-content;
+    height: max-content;
+    left: 40%;
+    top: 0;
+    position: relative;
+    background-color: white;
+}
+.form:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form input {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-width: 0;
+}
+
+.form textarea {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-width: 0;
+    text-decoration: none;
+}
+.form button{
+    font-weight: bold;
+    float: right;
+    border-radius: 100%;
+}
+.form button:hover{
+    color: black;
+    background-color: orange;
+}
+.note h1 {
+    font-size: medium;
+    margin: 0;
+}
+
+.note p {
+    margin: 0;
+}
+
+.note:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
